@@ -35,7 +35,8 @@ argv[5]: x coordinate of ending point;
 # format of stdout
 - first line: the number of nodes has been explored. and the cost of shortest path. seperated by space;
 - second line: the actions to get to destination (ending point). (U D L R; up down left right correspondingly). seperated by space;
-
-# if not reachable
+~~~text
+if not reachable
 - first line: the number of nodes has been explored. and the cost of shortest path which is 0. seperated by space;
 - second line: 'X' (indicate no valid path);
+~~~
