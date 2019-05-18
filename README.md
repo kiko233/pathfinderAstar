@@ -8,6 +8,8 @@ gcc main.c -o pathfinder
 
 # run:
 ./pathfinder [inputfile] [starting-y] [starting-x] [ending-y] [ending-x] 
+eg:
+./pathfinder exmapleMap.txt 0 3 5 0
 
 # Take 5 argument to run.
 argv[1]: input filename
