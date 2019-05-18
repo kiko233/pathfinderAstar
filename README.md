@@ -11,23 +11,25 @@ gcc main.c -o pathfinder
 - eg:
 ./pathfinder exampleMap.txt 0 3 5 0
 
-# Take 5 argument to run.
-- argv[1]: input filename;
-- argv[2]: y coordinate of starting point;
-- argv[3]: x coordinate of starting point;
-- argv[4]: y coordinate of ending point;
-- argv[5]: x coordinate of ending point;
+~~~text
+Take 5 argument to run.
+argv[1]: input filename;
+argv[2]: y coordinate of starting point;
+argv[3]: x coordinate of starting point;
+argv[4]: y coordinate of ending point;
+argv[5]: x coordinate of ending point;
+~~~
 
 # format of input file:
 - first line is [width] and [height]. seperated by space or tab;
 - following lines are filled with space-or-tab-seperated 0s and 1s;
 - 0 represent as free space can move. 1 indicate space is occupied;
-- eg: ~~~test
+- eg: 
+~~~text
 5 3
 0 1 1 0 0 
 1 0 0 0 0 
 0 1 0 0 0
-
 ~~~
 
 # format of stdout
