@@ -11,7 +11,7 @@ gcc main.c -o pathfinder
 - eg:
 ./pathfinder exampleMap.txt 0 3 5 0
 
-#### Take 5 argument to run:
+#### Take 5 arguments to run:
 - argv[1]: input filename;
 - argv[2]: y coordinate of starting point;
 - argv[3]: x coordinate of starting point;
